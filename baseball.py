@@ -5,7 +5,7 @@ import numpy
 from scipy import stats
 import random
 
-from misc_utils import *
+from modelutils import *
 
 
 class Player:
@@ -164,7 +164,7 @@ def run_simulation(lineup):
 
 
 def collect_players():
-    player_data_reader = csv.reader(open('data/mlb2012.csv', 'rb'))
+    player_data_reader = csv.reader(open('data/mlb2014.csv', 'rb'))
     # Keys
     PLAYER_ID=0
     FIRST_NAME=1
