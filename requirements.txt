@@ -1,1 +1,1 @@
-git+git://github.com/sidewalkScienceModels/utils.git@master
+git+git://github.com/sidewalkScienceModels/modelutils.git@master
